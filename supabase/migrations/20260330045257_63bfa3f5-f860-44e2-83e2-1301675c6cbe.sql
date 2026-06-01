@@ -1,0 +1,12 @@
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop'] WHERE name = 'Air Max Pulse';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&h=600&fit=crop'] WHERE name = 'Ultraboost Light';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop'] WHERE name = 'Classic Leather';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&h=600&fit=crop'] WHERE name = 'RS-X Reinvention';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&h=600&fit=crop'] WHERE name = 'Old Skool';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=600&h=600&fit=crop'] WHERE name = 'Chuck Taylor All Star';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&h=600&fit=crop'] WHERE name = 'Gel-Kayano 30';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600&h=600&fit=crop'] WHERE name = 'Air Jordan 1 Mid';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&h=600&fit=crop'] WHERE name = 'Superstar';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop'] WHERE name = 'Suede Classic XXI';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop'] WHERE name = 'Fresh Foam X 1080v13';
+UPDATE products SET images = ARRAY['https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=600&h=600&fit=crop'] WHERE name = 'Forum Low';

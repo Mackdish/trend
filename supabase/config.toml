@@ -1,0 +1,13 @@
+project_id = "vdvikwykerxbdeknslko"
+
+# mpesa-callback is invoked by Tuma's webhook (no JWT). Auth is enforced via shared secret token.
+[functions.mpesa-callback]
+verify_jwt = false
+
+# mpesa-stk-push validates the user JWT inside the function explicitly.
+[functions.mpesa-stk-push]
+verify_jwt = false
+
+# create-admin validates the user JWT and admin role inside the function.
+[functions.create-admin]
+verify_jwt = false

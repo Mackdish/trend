@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+    --background: 0 0% 97%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 12 90% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 20% 10%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 42 100% 50%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 12 90% 50%;
+
+    --radius: 0.625rem;
+
+    /* Custom tokens */
+    --sale: 0 84% 55%;
+    --sale-foreground: 0 0% 100%;
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --badge-new: 220 90% 56%;
+    --badge-new-foreground: 0 0% 100%;
+    --surface-elevated: 0 0% 100%;
+    --nav-bg: 220 20% 10%;
+    --nav-foreground: 0 0% 100%;
+    --nav-muted: 220 10% 70%;
+    --topbar-bg: 12 90% 50%;
+    --topbar-foreground: 0 0% 100%;
+    --flash-gradient-start: 12 90% 50%;
+    --flash-gradient-end: 25 95% 53%;
+    --star: 42 100% 50%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 20% 7%;
+    --foreground: 210 40% 98%;
+    --card: 220 20% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 20% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 12 90% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 14%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 14% 14%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 42 100% 50%;
+    --accent-foreground: 220 20% 10%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 14% 18%;
+    --input: 220 14% 18%;
+    --ring: 12 90% 55%;
+    --nav-bg: 220 20% 5%;
+    --nav-foreground: 0 0% 100%;
+    --sidebar-background: 220 20% 7%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .nav-container {
+    @apply bg-nav text-nav-foreground;
+  }
+
+  .topbar-gradient {
+    background: linear-gradient(135deg, hsl(var(--flash-gradient-start)), hsl(var(--flash-gradient-end)));
+  }
+
+  .flash-badge {
+    background: linear-gradient(135deg, hsl(var(--flash-gradient-start)), hsl(var(--flash-gradient-end)));
+    @apply text-primary-foreground font-bold px-3 py-1 rounded-full text-xs uppercase tracking-wider;
+  }
+
+  .product-card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .sale-badge {
+    @apply bg-sale text-sale-foreground font-semibold text-xs px-2 py-0.5 rounded;
+  }
+
+  .category-pill {
+    @apply px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
+           bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer;
+  }
+
+  .category-pill-active {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .search-input {
+    @apply w-full rounded-full border-none bg-secondary px-5 py-2.5 text-sm 
+           placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  @media (max-width: 767px) {
+    body { padding-bottom: calc(4rem + env(safe-area-inset-bottom)); }
+  }
+}
