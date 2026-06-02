@@ -48,7 +48,7 @@ export default function Returns() {
               <h2 className="text-lg font-semibold">How to Initiate a Return</h2>
             </div>
             <ol className="text-muted-foreground text-sm space-y-2 list-decimal pl-5">
-              <li>Contact us at <strong className="text-foreground">0705 186 502</strong> or <strong className="text-foreground">0740 960 179</strong></li>
+              <li>Contact us at <strong className="text-foreground">0791054940</strong></li>
               <li>Provide your order number and reason for return</li>
               <li>Ship the product back or drop it at our Nairobi or Bondo store</li>
               <li>Refund is processed within 5 business days after inspection</li>

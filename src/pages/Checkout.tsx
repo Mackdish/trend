@@ -142,7 +142,7 @@ export default function Checkout() {
       .map(item => `• ${item.product.name} (Size: ${item.selectedSize}, Color: ${item.selectedColor}) x${item.quantity} — KES ${(item.product.price * item.quantity).toLocaleString()}`)
       .join('\n');
     const message = `Hi TradeMall! I'd like to place an order:\n\n${itemsList}\n\nSubtotal: KES ${totalPrice.toLocaleString()}\nShipping: KES ${shippingFee.toLocaleString()}\nTotal: KES ${grandTotal.toLocaleString()}\n\nName: ${form.fullName}\nPhone: ${form.phone}\nAddress: ${form.address}, ${form.city}\nNotes: ${form.notes || 'None'}`;
-    window.open(`https://wa.me/254705186502?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/254791054940?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   if (items.length === 0) {

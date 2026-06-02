@@ -16,8 +16,7 @@ export default function ContactUs() {
               <Phone className="h-5 w-5 text-primary mt-0.5" />
               <div>
                 <h3 className="font-semibold">Phone</h3>
-                <p className="text-muted-foreground text-sm">0705 186 502</p>
-                <p className="text-muted-foreground text-sm">0740 960 179</p>
+                <p className="text-muted-foreground text-sm">0791054940</p>
               </div>
             </div>
             <div className="flex items-start gap-3">

@@ -37,7 +37,7 @@ export default function Header() {
         <div className="container mx-auto flex items-center justify-between text-topbar-foreground text-xs">
           <span className="font-medium">🔥 Free shipping on orders over KES 5,000</span>
           <div className="hidden sm:flex items-center gap-4">
-            <span>📞 0705 186 502</span>
+            <span>📞 0791054940</span>
             <span>Track Order</span>
           </div>
         </div>

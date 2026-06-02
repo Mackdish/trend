@@ -52,7 +52,7 @@ export default function TermsOfService() {
 
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-2">9. Contact</h2>
-            <p>For questions about these terms, contact us at 0705 186 502 or 0740 960 179.</p>
+            <p>For questions about these terms, contact us at 0791054940.</p>
           </section>
         </div>
       </main>

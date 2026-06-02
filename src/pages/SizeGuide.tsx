@@ -51,7 +51,7 @@ export default function SizeGuide() {
             <li>Stand on a piece of paper and trace around your foot</li>
             <li>Measure the length from heel to the longest toe in centimeters</li>
             <li>If you're between sizes, we recommend going half a size up</li>
-            <li>Contact us at 0705 186 502 for sizing assistance</li>
+            <li>Contact us at 0791054940 for sizing assistance</li>
           </ul>
         </div>
       </main>

@@ -43,12 +43,12 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-2">6. Your Rights</h2>
-            <p>You have the right to access, update, or delete your personal information at any time through your account settings. You may also contact us at 0705 186 502 or 0740 960 179 to request data deletion.</p>
+            <p>You have the right to access, update, or delete your personal information at any time through your account settings. You may also contact us at 0791054940 to request data deletion.</p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-2">7. Contact Us</h2>
-            <p>If you have questions about this Privacy Policy, please contact us at 0705 186 502 or 0740 960 179, or email support@trademall.co.ke.</p>
+            <p>If you have questions about this Privacy Policy, please contact us at 0791054940, or email support@trademall.co.ke.</p>
           </section>
         </div>
       </main>

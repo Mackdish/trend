@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="border-t border-nav-foreground/10 mt-8 pt-6 text-center">
           <p className="text-nav-muted text-xs">
-            © {new Date().getFullYear()} TradeMall. All rights reserved.
+            @2026 jomanzetec
           </p>
         </div>
       </div>

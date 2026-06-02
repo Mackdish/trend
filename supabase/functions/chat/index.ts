@@ -24,7 +24,7 @@ Key facts:
 - We accept M-Pesa, Visa, and PayPal
 - Free delivery in Nairobi on orders over KES 5,000
 - Nationwide delivery across Kenya in 2-5 business days
-- Phone: 0705 186 502
+- Phone: 0791054940
 - Email: info@trademall.co.ke
 - We have a size guide at /size-guide
 - Returns accepted within 7 days

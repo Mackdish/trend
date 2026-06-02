@@ -85,7 +85,7 @@ export default function ChatWidget() {
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: 'assistant', content: "Sorry, I'm having trouble connecting. Please try again or call us at 0705 186 502." },
+        { role: 'assistant', content: "Sorry, I'm having trouble connecting. Please try again or call us at 0791054940." },
       ]);
     } finally {
       setLoading(false);
